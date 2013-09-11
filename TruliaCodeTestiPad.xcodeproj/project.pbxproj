@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E095793417E0DDC900F89192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E095793317E0DDC900F89192 /* UIKit.framework */; };
+		E095793617E0DDC900F89192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E095793517E0DDC900F89192 /* Foundation.framework */; };
+		E095793817E0DDC900F89192 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E095793717E0DDC900F89192 /* CoreGraphics.framework */; };
+		E095793A17E0DDC900F89192 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E095793917E0DDC900F89192 /* CoreData.framework */; };
+		E095794017E0DDC900F89192 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E095793E17E0DDC900F89192 /* InfoPlist.strings */; };
+		E095794217E0DDC900F89192 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E095794117E0DDC900F89192 /* main.m */; };
+		E095794617E0DDC900F89192 /* TLBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E095794517E0DDC900F89192 /* TLBAppDelegate.m */; };
+		E095794817E0DDC900F89192 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E095794717E0DDC900F89192 /* Default.png */; };
+		E095794A17E0DDC900F89192 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E095794917E0DDC900F89192 /* Default@2x.png */; };
+		E095794C17E0DDC900F89192 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E095794B17E0DDC900F89192 /* Default-568h@2x.png */; };
+		E095794F17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E095794D17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E095793017E0DDC900F89192 /* TruliaCodeTestiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruliaCodeTestiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E095793317E0DDC900F89192 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E095793517E0DDC900F89192 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E095793717E0DDC900F89192 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E095793917E0DDC900F89192 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E095793D17E0DDC900F89192 /* TruliaCodeTestiPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TruliaCodeTestiPad-Info.plist"; sourceTree = "<group>"; };
+		E095793F17E0DDC900F89192 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E095794117E0DDC900F89192 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E095794317E0DDC900F89192 /* TruliaCodeTestiPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TruliaCodeTestiPad-Prefix.pch"; sourceTree = "<group>"; };
+		E095794417E0DDC900F89192 /* TLBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLBAppDelegate.h; sourceTree = "<group>"; };
+		E095794517E0DDC900F89192 /* TLBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLBAppDelegate.m; sourceTree = "<group>"; };
+		E095794717E0DDC900F89192 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E095794917E0DDC900F89192 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E095794B17E0DDC900F89192 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E095794E17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TruliaCodeTestiPad.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E095792D17E0DDC900F89192 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E095793417E0DDC900F89192 /* UIKit.framework in Frameworks */,
+				E095793617E0DDC900F89192 /* Foundation.framework in Frameworks */,
+				E095793817E0DDC900F89192 /* CoreGraphics.framework in Frameworks */,
+				E095793A17E0DDC900F89192 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E095792717E0DDC900F89192 = {
+			isa = PBXGroup;
+			children = (
+				E095793B17E0DDC900F89192 /* TruliaCodeTestiPad */,
+				E095793217E0DDC900F89192 /* Frameworks */,
+				E095793117E0DDC900F89192 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E095793117E0DDC900F89192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E095793017E0DDC900F89192 /* TruliaCodeTestiPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E095793217E0DDC900F89192 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E095793317E0DDC900F89192 /* UIKit.framework */,
+				E095793517E0DDC900F89192 /* Foundation.framework */,
+				E095793717E0DDC900F89192 /* CoreGraphics.framework */,
+				E095793917E0DDC900F89192 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E095793B17E0DDC900F89192 /* TruliaCodeTestiPad */ = {
+			isa = PBXGroup;
+			children = (
+				E095794417E0DDC900F89192 /* TLBAppDelegate.h */,
+				E095794517E0DDC900F89192 /* TLBAppDelegate.m */,
+				E095794D17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld */,
+				E095793C17E0DDC900F89192 /* Supporting Files */,
+			);
+			path = TruliaCodeTestiPad;
+			sourceTree = "<group>";
+		};
+		E095793C17E0DDC900F89192 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E095793D17E0DDC900F89192 /* TruliaCodeTestiPad-Info.plist */,
+				E095793E17E0DDC900F89192 /* InfoPlist.strings */,
+				E095794117E0DDC900F89192 /* main.m */,
+				E095794317E0DDC900F89192 /* TruliaCodeTestiPad-Prefix.pch */,
+				E095794717E0DDC900F89192 /* Default.png */,
+				E095794917E0DDC900F89192 /* Default@2x.png */,
+				E095794B17E0DDC900F89192 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E095792F17E0DDC900F89192 /* TruliaCodeTestiPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E095795217E0DDCA00F89192 /* Build configuration list for PBXNativeTarget "TruliaCodeTestiPad" */;
+			buildPhases = (
+				E095792C17E0DDC900F89192 /* Sources */,
+				E095792D17E0DDC900F89192 /* Frameworks */,
+				E095792E17E0DDC900F89192 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TruliaCodeTestiPad;
+			productName = TruliaCodeTestiPad;
+			productReference = E095793017E0DDC900F89192 /* TruliaCodeTestiPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E095792817E0DDC900F89192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TLB;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Trulia, Inc";
+			};
+			buildConfigurationList = E095792B17E0DDC900F89192 /* Build configuration list for PBXProject "TruliaCodeTestiPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E095792717E0DDC900F89192;
+			productRefGroup = E095793117E0DDC900F89192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E095792F17E0DDC900F89192 /* TruliaCodeTestiPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E095792E17E0DDC900F89192 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E095794017E0DDC900F89192 /* InfoPlist.strings in Resources */,
+				E095794817E0DDC900F89192 /* Default.png in Resources */,
+				E095794A17E0DDC900F89192 /* Default@2x.png in Resources */,
+				E095794C17E0DDC900F89192 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E095792C17E0DDC900F89192 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E095794217E0DDC900F89192 /* main.m in Sources */,
+				E095794617E0DDC900F89192 /* TLBAppDelegate.m in Sources */,
+				E095794F17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E095793E17E0DDC900F89192 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E095793F17E0DDC900F89192 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E095795017E0DDCA00F89192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E095795117E0DDCA00F89192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E095795317E0DDCA00F89192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TruliaCodeTestiPad/TruliaCodeTestiPad-Prefix.pch";
+				INFOPLIST_FILE = "TruliaCodeTestiPad/TruliaCodeTestiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E095795417E0DDCA00F89192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TruliaCodeTestiPad/TruliaCodeTestiPad-Prefix.pch";
+				INFOPLIST_FILE = "TruliaCodeTestiPad/TruliaCodeTestiPad-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E095792B17E0DDC900F89192 /* Build configuration list for PBXProject "TruliaCodeTestiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E095795017E0DDCA00F89192 /* Debug */,
+				E095795117E0DDCA00F89192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E095795217E0DDCA00F89192 /* Build configuration list for PBXNativeTarget "TruliaCodeTestiPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E095795317E0DDCA00F89192 /* Debug */,
+				E095795417E0DDCA00F89192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E095794D17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E095794E17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodel */,
+			);
+			currentVersion = E095794E17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodel */;
+			path = TruliaCodeTestiPad.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E095792817E0DDC900F89192 /* Project object */;
+}
