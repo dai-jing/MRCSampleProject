@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1961A118FCE381008EB87A /* TLBLargeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1961A018FCE381008EB87A /* TLBLargeImageViewController.m */; };
+		0F62E6BE18FCA5A1008137CF /* TLBImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F62E6BD18FCA5A1008137CF /* TLBImage.m */; };
+		0F62E6C518FCAA9F008137CF /* TLBImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F62E6C418FCAA9F008137CF /* TLBImageCell.m */; };
 		E095793417E0DDC900F89192 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E095793317E0DDC900F89192 /* UIKit.framework */; };
 		E095793617E0DDC900F89192 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E095793517E0DDC900F89192 /* Foundation.framework */; };
 		E095793817E0DDC900F89192 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E095793717E0DDC900F89192 /* CoreGraphics.framework */; };
@@ -18,9 +21,17 @@
 		E095794A17E0DDC900F89192 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E095794917E0DDC900F89192 /* Default@2x.png */; };
 		E095794C17E0DDC900F89192 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E095794B17E0DDC900F89192 /* Default-568h@2x.png */; };
 		E095794F17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E095794D17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld */; };
+		E095795817E0E24300F89192 /* TLBSearchRequestController.m in Sources */ = {isa = PBXBuildFile; fileRef = E095795717E0E24300F89192 /* TLBSearchRequestController.m */; };
+		E095795B17E0E25F00F89192 /* TLBMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E095795A17E0E25F00F89192 /* TLBMainViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F19619F18FCE381008EB87A /* TLBLargeImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBLargeImageViewController.h; sourceTree = "<group>"; };
+		0F1961A018FCE381008EB87A /* TLBLargeImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBLargeImageViewController.m; sourceTree = "<group>"; };
+		0F62E6BC18FCA5A1008137CF /* TLBImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBImage.h; sourceTree = "<group>"; };
+		0F62E6BD18FCA5A1008137CF /* TLBImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBImage.m; sourceTree = "<group>"; };
+		0F62E6C318FCAA9F008137CF /* TLBImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBImageCell.h; sourceTree = "<group>"; };
+		0F62E6C418FCAA9F008137CF /* TLBImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBImageCell.m; sourceTree = "<group>"; };
 		E095793017E0DDC900F89192 /* TruliaCodeTestiPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruliaCodeTestiPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E095793317E0DDC900F89192 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		E095793517E0DDC900F89192 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,6 +47,10 @@
 		E095794917E0DDC900F89192 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		E095794B17E0DDC900F89192 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		E095794E17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TruliaCodeTestiPad.xcdatamodel; sourceTree = "<group>"; };
+		E095795617E0E24300F89192 /* TLBSearchRequestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBSearchRequestController.h; sourceTree = "<group>"; };
+		E095795717E0E24300F89192 /* TLBSearchRequestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBSearchRequestController.m; sourceTree = "<group>"; };
+		E095795917E0E25F00F89192 /* TLBMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TLBMainViewController.h; sourceTree = "<group>"; };
+		E095795A17E0E25F00F89192 /* TLBMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TLBMainViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +68,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F19619E18FCE35E008EB87A /* Popup View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0F19619F18FCE381008EB87A /* TLBLargeImageViewController.h */,
+				0F1961A018FCE381008EB87A /* TLBLargeImageViewController.m */,
+			);
+			name = "Popup View Controller";
+			sourceTree = "<group>";
+		};
+		0F62E6B818FCA55E008137CF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F62E6BC18FCA5A1008137CF /* TLBImage.h */,
+				0F62E6BD18FCA5A1008137CF /* TLBImage.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0F62E6BF18FCA651008137CF /* Search Request */ = {
+			isa = PBXGroup;
+			children = (
+				E095795617E0E24300F89192 /* TLBSearchRequestController.h */,
+				E095795717E0E24300F89192 /* TLBSearchRequestController.m */,
+			);
+			name = "Search Request";
+			sourceTree = "<group>";
+		};
+		0F62E6C018FCA66B008137CF /* Main View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E095795917E0E25F00F89192 /* TLBMainViewController.h */,
+				E095795A17E0E25F00F89192 /* TLBMainViewController.m */,
+			);
+			name = "Main View Controller";
+			sourceTree = "<group>";
+		};
+		0F62E6C118FCA6AA008137CF /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				E095794417E0DDC900F89192 /* TLBAppDelegate.h */,
+				E095794517E0DDC900F89192 /* TLBAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		0F62E6C218FCA826008137CF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0F62E6C318FCAA9F008137CF /* TLBImageCell.h */,
+				0F62E6C418FCAA9F008137CF /* TLBImageCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		E095792717E0DDC900F89192 = {
 			isa = PBXGroup;
 			children = (
@@ -84,8 +153,10 @@
 		E095793B17E0DDC900F89192 /* TruliaCodeTestiPad */ = {
 			isa = PBXGroup;
 			children = (
-				E095794417E0DDC900F89192 /* TLBAppDelegate.h */,
-				E095794517E0DDC900F89192 /* TLBAppDelegate.m */,
+				0F62E6C118FCA6AA008137CF /* App Delegate */,
+				0F62E6B818FCA55E008137CF /* Model */,
+				0F62E6C218FCA826008137CF /* Views */,
+				E095795517E0DF7000F89192 /* Controllers */,
 				E095794D17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld */,
 				E095793C17E0DDC900F89192 /* Supporting Files */,
 			);
@@ -104,6 +175,16 @@
 				E095794B17E0DDC900F89192 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E095795517E0DF7000F89192 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0F62E6C018FCA66B008137CF /* Main View Controller */,
+				0F62E6BF18FCA651008137CF /* Search Request */,
+				0F19619E18FCE35E008EB87A /* Popup View Controller */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,7 +255,12 @@
 			files = (
 				E095794217E0DDC900F89192 /* main.m in Sources */,
 				E095794617E0DDC900F89192 /* TLBAppDelegate.m in Sources */,
+				0F62E6BE18FCA5A1008137CF /* TLBImage.m in Sources */,
 				E095794F17E0DDCA00F89192 /* TruliaCodeTestiPad.xcdatamodeld in Sources */,
+				E095795817E0E24300F89192 /* TLBSearchRequestController.m in Sources */,
+				0F62E6C518FCAA9F008137CF /* TLBImageCell.m in Sources */,
+				E095795B17E0E25F00F89192 /* TLBMainViewController.m in Sources */,
+				0F1961A118FCE381008EB87A /* TLBLargeImageViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +375,7 @@
 				E095795417E0DDCA00F89192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
